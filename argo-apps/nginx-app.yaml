@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/Vijay98816/my-gitops-repo
-    targetRevision: main
+    targetRevision: master
     path: helm-charts/nginx
     helm:
       valueFiles:
